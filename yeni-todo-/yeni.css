@@ -1,0 +1,96 @@
+body {
+  font-family: Franklin Gothic Medium;
+  color: #064a82;
+  text-align: center;
+  padding: 100px;
+  background-color: #f9d5e5;
+  font-weight: bold;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(rgba(213, 86, 201, 0.5), transparent),
+    url("https://dekorio.com.tr/wp-content/uploads/2023/01/calisma-masasi-duzeni-nasil-olmali-13.jpg")
+      no-repeat;
+  background-size: cover;
+}
+
+#greeting {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#time {
+  font-size: 20px;
+}
+#bugun {
+  font-size: 20px;
+}
+
+#greeting1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#emoji {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#table {
+  margin: 0 auto 0 auto;
+  display: table;
+}
+#greeting2 {
+  font-size: 30px;
+  margin-bottom: 14px;
+  font-style: italic;
+}
+button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button {
+  background-color: white;
+  color: rgb(4, 121, 141);
+  border: 2px solid #e6329b;
+}
+
+button:hover {
+  background-color: #e6329b;
+  color: white;
+}
+
+#name {
+  line-height: 32px;
+  border-width: 2px;
+  background-color: #e6329b;
+  color: rgb(5, 45, 244);
+  font-size: 36px;
+}
+section {
+  padding: 10px;
+}
+
+#adın {
+  font-size: 35px;
+}
+div {
+  display: inline-block;
+  overflow: hidden;
+}
+#yenitable {
+  border: none;
+  width: 200px;
+  text-align: center;
+  font-size: medium;
+  background-color: #ffffff;
+}

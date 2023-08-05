@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>TodoList</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="heading">
+        <img
+          src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGpyNThqYzM3NjNpMXAxZXdsOG1kdzhreXkxdWJqNnV5ZzRiZ3VvcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3WW4Zm1F2MeoU/giphy.gif"
+          alt="todo"
+          class="heading__img"
+        />
+        <h1 class="heading__title">To-Do List</h1>
+      </div>
+      <form class="form">
+        <div>
+          <label for="todo" class="form__label"> Today I need to </label>
+          <input
+            class="form__input"
+            type="text"
+            id="todo"
+            name="to-do"
+            size="30"
+            autocomplete="off"
+            required
+          />
+          <button class="button"><span>Submit</span></button>
+        </div>
+      </form>
+      <div>
+        <ul id="myUL" class="toDoList"></ul>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script src="2app.js"></script>
+  </body>
+</html>

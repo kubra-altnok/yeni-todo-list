@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Kübra proje</title>
+    <link rel="stylesheet" href="yeni.css" />
+  </head>
+  <body>
+    <div id="main">
+      <section id="adın">
+        <label for="name">Adın Nedir? &#128522; </label>
+      </section>
+      <br /><br /><br />
+      <section>
+        <input type="text" id="name" placeholder="kullanıcı adınızı giriniz" />
+      </section>
+      <br /><br /><br />
+      <div id="buton">
+        <a href="index.html"><button>Giriş Yap</button> </a>
+      </div>
+    </div>
+
+    <div id="welcomeScreen" style="display: none">
+      <main id="table">
+        <table>
+          <tr>
+            <td>
+              <div id="greeting"></div>
+            </td>
+          </tr>
+
+          <tr>
+            <td><div id="greeting1"></div></td>
+
+            <td>
+              <div id="greeting2"></div>
+            </td>
+          </tr>
+        </table>
+      </main>
+
+      <div id="emoji">&#128522;</div>
+      <br /><br /><br /><br />
+      <br />
+      <div id="bugun"></div>
+      <br />
+      <div id="time"></div>
+    </div>
+
+    <br /><br /><br /><br />
+    <img
+      src="https://img1.picmix.com/output/stamp/normal/4/2/1/7/1857124_1703e.gif"
+      alt="kelebekgifi"
+      class="kelebek"
+    />
+    <br /><br /><br /><br />
+    <hr />
+    <table id="yenitable" align="center">
+      <tr>
+        <td>
+          <div id="first">
+            <a id="firstHref" href="index.html"> Sayfa Yenile </a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <script src="app.js"></script>
+
+    <script>
+      ScrollReveal().reveal("#adın", { delay: 250 });
+      ScrollReveal().reveal("#name", { delay: 850 });
+      ScrollReveal().reveal("#buton", { delay: 1250 });
+    </script>
+  </body>
+</html>
